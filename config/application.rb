@@ -17,6 +17,9 @@ module Angular2app
   			resource '*', :headers => :any, :methods => [:get, :post, :options]
   		end
   	end
+
+  	#explicitly adding the node_modules directory to assets
+  	config.assets.paths << Rails.root.join('node_modules')
     # Settings in config/environments/* take precedence over those specified here.
     # Application configuration should go into files in config/initializers
     # -- all .rb files in that directory are automatically loaded.
