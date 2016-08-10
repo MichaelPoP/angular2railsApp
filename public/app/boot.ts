@@ -8,7 +8,7 @@ import {ROUTER_PROVIDERS} from 'angular2/router'
 bootstrap(
 	AppRouterComponent,
 	[
-		HTTP_PROVIDERS
+		HTTP_PROVIDERS,
 		ROUTER_PROVIDERS
 	]
 );

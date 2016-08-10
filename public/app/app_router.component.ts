@@ -6,12 +6,12 @@ import {HomeComponent} from './home.component'
 	selector: 'app-router',
 	template: '<router-outlet></router-outlet>',
 	directives: [ROUTER_DIRECTIVES],
-	style:[]
+	styles:[]
 })
 
-@RouteConfig{[
+@RouteConfig([
 
 	{ path: '/', name: 'Home', component: HomeComponent }
 
-]}
+])
 export class AppRouterComponent {}
